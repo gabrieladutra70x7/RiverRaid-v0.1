@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>River Raid Multiplayer (2P)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Área do Placar (HUD) -->
+  <div id="hud">
+    <div id="p1-info">Jogador 1: Aguardando...</div>
+    <div id="status">Conectando...</div>
+    <div id="p2-info">Jogador 2: Aguardando...</div>
+  </div>
+
+  <!-- Tela do Jogo -->
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <script src="client.js"></script>
+</body>
+</html>
